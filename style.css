@@ -2,7 +2,10 @@ html {
   height: 100%;
   width: 100%;
 }
-
+body {
+  background-color: tan;
+  margin: 0;
+}
 .header {
   display: flex;
   align-items: center;
