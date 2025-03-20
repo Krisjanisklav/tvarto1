@@ -20,4 +20,8 @@ h1 {
 
   img {
     border-radius: 363.5px;
-  }
+    object-fit: contain;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
