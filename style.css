@@ -1,24 +1,93 @@
-html {
+
+html, body {
   height: 100%;
   width: 100%;
-}
-body {
-  background-color: tan;
   margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e5d3b8;
 }
-.header {
+
+header {
+  background-color: #e5d3b8;
+  padding: 20px 50px;
+}
+
+.logo-title {
   display: flex;
   align-items: center;
-  gap: 100px;
-  padding: 60px;
+  gap: 20px;
+}
+
+.logo-title img {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 25px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.hero-image {
+  height: 200px;
+  background-image: url('breadboom.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.about-text {
+  flex: 2;
+  padding: 20px;
+}
+
+.hours {
+  margin-top: 30px;
+}
+
+.hours p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 h1 {
   margin: 0;
+  font-size: 2em;
+}
 
-  }
-
- img {
-    border-radius: 90px;
-    
+h2 {
+  color: #333;
 }
