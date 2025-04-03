@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 html, body {
-  height: 100%;
-  width: 100%;
+  height: 1024px;
+  width: 1440px;
   margin: 0;
   padding: 0;
   font-family: 'Outfit', sans-serif;
-  background-color: #e5d3b8;
+  background-color: #D2B48C;
 }
 
 header {
-  background-color: #e5d3b8;
+  background-color: #D2B48C;
   padding: 20px 50px;
 }
 
