@@ -1,16 +1,49 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Tvarto</title>
+  <title>Tvarto - Reģistrācija</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-  Tvarto Bake House
+  <header>
+    <div class="logo-title">
+      <a href="menu.html">
+        <img src="logo for a company Tvarto which sells food slogan Svaigs. Garšīgs. Tava izvēle..jpg" alt="Tvarto Logo">
+      </a>
+      <h1>Tvarto Bake House</h1>
+    </div>
+  </header>
+
+  <main class="registration-container">
+    <h2>Reģistrācija</h2>
+    <form class="registration-form">
+      <div class="form-group">
+        <label for="vards">Vārds</label>
+        <input type="text" id="vards" name="vards" required>
+      </div>
+      <div class="form-group">
+        <label for="uzvards">Uzvārds</label>
+        <input type="text" id="uzvards" name="uzvards" required>
+      </div>
+      <div class="form-group">
+        <label for="epasts">Ē-Pasts</label>
+        <input type="email" id="epasts" name="epasts" required>
+      </div>
+      <div class="form-group">
+        <label for="parole">Parole</label>
+        <input type="password" id="parole" name="parole" required>
+      </div>
+      <div class="form-group">
+        <label for="apstiprinate">Apstiprināt Paroli</label>
+        <input type="password" id="apstiprinate" name="apstiprinate" required>
+      </div>
+      <button type="submit" class="register-btn">Reģistrēties</button>
+    </form>
+  </main>
+
   <script src="script.js"></script>
 </body>
-
 </html>
